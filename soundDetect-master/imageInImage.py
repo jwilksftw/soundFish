@@ -77,9 +77,10 @@ def bobberfish():
             pyautogui.moveTo(i, c)
 
 while True:
+    keyboard.press_and_release('1')
     bobberfish()
     time.sleep(5)
-    keyboard.press_and_release('1')
+    
         
 
 
